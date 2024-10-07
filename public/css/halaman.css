@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: white;
+}
+
+a {
+	text-decoration-color: #000;
+}
+
+.main {
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: #134B70;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+.form {
+	position: relative;
+	width: 90%;
+	height: 60%;
+}
+
+label {
+	color: #fff;
+	font-size: 20px;
+	display: flex;
+	margin: 20px 0px 0px 20px;
+	font-weight: bold;
+	cursor: pointer;
+
+
+}
+
+input {
+	width: 10px;
+	height: 40px;
+	padding: 10px;
+	margin: 20px 0px 0px 20px;
+	border-radius: 5px;
+	justify-content: left;
+}
+
+button {
+
+	height: 40px;
+	margin: 20px;
+	justify-content: left;
+	display: block;
+	color: #fff;
+	background: #00ff22;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 40px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #134B70;
+}
+
+.judul {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	
+	font-weight: bold;
+}

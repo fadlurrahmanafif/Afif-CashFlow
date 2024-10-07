@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+	font-family: Arial, sans-serif;
+    padding: 0;
+
+}
+
+
+
+.p{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+h1{
+	margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+	display: block;
+
+}
+
+h3{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.login{
+    border-radius: 10px;
+    background: #00c71b;
+    align-items: center;
+	font-size: 14pt;	
+	justify-content: right;
+    cursor: pointer;
+	border: none;
+	transition: .2s;
+	color: white;
+	width: 80px;
+	height: 40px;
+}
+
+.login:hover{
+    
+	background:#134B70 ;
+}
+
+.logout{
+	border-radius: 10px;
+    background: #ff0000;
+    align-items: center;
+	font-size: 14pt;	
+	justify-content: right;
+    cursor: pointer;
+	border: none;
+	transition: .2s;
+	color: white;
+	width: 80px;
+	height: 40px;
+}
+
+.logout:hover{
+	background:#134B70 ;
+}
+
+.navbar{
+    background:#134B70;
+	margin: 0px;
+	padding: 0px ;
+    width: -50px;
+}
+
+
+.navbar-1{
+    background:#134B70 ;
+	margin: 0;
+	padding: 0px ;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	margin: 15px;
+	display: flex;
+	list-style: none;
+	padding: 0;	
+    right: auto;	
+	color: white;
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 15px;
+}
+ 
+.menu li a{
+	padding:0;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+/* .menu-sidebar{
+	margin: 100px;
+	display: table-column-group;
+	list-style: none;
+	padding: 0;	
+    right: auto;	
+	color: white;
+}
+ 
+.menu-sidebar li{
+	padding: 0;
+	margin: 50px;
+}
+ 
+.menu-sidebar li a{
+	padding:0;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.menu-sidebar li a:hover{
+    background-color: #ff000000;
+    text-decoration: underline;
+}
+
+.button{
+	margin: -680px 0px 0px 200px;
+}
+
+
+.table{
+	position: relative;
+	justify-content: center;
+	padding: 10px;
+    width: 1330px;
+    height: 50px;
+	
+	margin: -5px 0px 0px 90px;
+}
+
+.cari{
+	position: relative;
+	justify-content: center;
+	margin: -15px 0px 0px 185px;
+}
+
+.next{
+	position: relative;
+	justify-content: center;
+	margin: 380px 0px 0px 200px;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	max-height: 100%;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.sidebar{
+    position: relative;
+    background:#134B70;
+    color: white;
+    width: 175px;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dasboard{
+    margin-top: 150px;
+}
+
+.main-dasboard{
+    position: relative;
+    margin: -635px 0px 0px 200px;
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.user-title{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+    margin: -10px 0px 0px 20px;
+}
+
+.user-title p{
+    font-size: 30px;
+} */
+
+/* .month-dasboard{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+    margin: 40px 0px 0px 20px;
+
+}
+
+.month-dasboard p{
+    font-size: 20px;
+}
+
+.triangle{
+    position: absolute;
+    margin: -35px 0px 0px 80px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid #555;
+}
+
+.dropdown-month{
+    position: absolute;
+    display: none;
+    margin: 100px 0px 0px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    height: fit-content;
+    z-index: 99;
+    background-color: white;
+}
+
+.dropdown-month ul li{
+text-align: center;
+margin: 10px;
+}
+
+.dropdown-month ul li a{
+text-decoration: none;
+color: #707070;
+}
+
+.dropdown-month ul li a:hover{
+    color: #134B70;
+
+}
+
+.dropdown-month li::marker{
+    color: white;
+}
+
+.month-dasboard:hover + .dropdown-month{
+display: block;
+}
+
+.dropdown-month:hover{
+    display: block;
+} */
+
+/* .white-small-box{
+    position: absolute;
+    background: white;
+    padding: 20px;
+    width: 290px;
+    height: 110px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(79,77,77);
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+}
+
+.white-small-box p{
+    margin-bottom: 10px;
+}
+
+.total-saldo{
+margin: 170px 0px 0px 20px;
+}
+
+.total-saldo p,h2{
+    text-align: center;
+}
+
+.total-pemasukan{
+    margin: 300px 0px 0px 20px;
+}
+
+.total-pemasukan p,h2{
+    text-align: center;
+}
+
+.total-pengeluaran{
+    margin: 430px 0px 0px 20px;
+}
+
+.total-pengeluaran p,h2{
+    text-align: center;
+}
+
+.circle-little{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #4ef275;
+    margin-top: -10px;
+    opacity: 50%;
+}
+
+.white-large-box{
+    position: absolute;
+    background: white;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(79,77,77);
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+}
+
+.saldo-progres{
+    margin: 5px 0px 0px 400px;
+}
+
+.pemasukan-progres{
+    margin: 5px 0px 0px 690px;
+}
+
+.pengeluaran-progres{
+    margin: 5px 0px 0px 980px;
+}
+
+.circle-1{
+    background: white;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 45px;
+}
+
+.circle-2{
+    background: white;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 45px;
+}
+
+.circle-3{
+    background: white;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 45px;
+}
+
+.round{
+    margin: 10px;
+}
+
+.round strong{
+    position: absolute;
+    margin: 50px 0px 0px -75px;
+    font-size: large;
+}
+
+.white-large-box h2{
+    margin-top: 25px;
+} */
